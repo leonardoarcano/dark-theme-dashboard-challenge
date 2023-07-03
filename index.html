@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="top-color"></div>
+
+    <div class="container">
+
+      <div class="top">
+        <div class="title">
+          <h1 id="title">Social Media Dashboard</h1>
+          <p>Total Followers: 23,004</p>
+        </div>
+        <div class="switch">
+          Dark Mode
+          <div class="toggler">
+            <input type="checkbox" class="check">
+            <div class="ball"></div>
+          </div>
+        </div>
+      </div>
+
+      <section id="social-status">
+        <div id="facebook" class="social-box">
+          <p class="align"><img src="./images/icon-facebook.svg" alt="facebook">@nathanf</p>
+          <div>
+            <p class="fallowers">1987</p>
+            <span class="subtitle">Followers</span>
+          </div>
+          <p class="align up"><img src="./images/icon-up.svg" alt="up">12 Today</p>
+        </div>
+        <div id="twitter" class="social-box">
+          <p class="align"><img src="./images/icon-twitter.svg" alt="">@nathanf</p>
+          <div>
+            <p class="fallowers">1044</p>
+            <span class="subtitle">Followers</span>
+          </div>
+          <p class="align up"><img src="./images/icon-up.svg" alt="">99 Today</p>          
+        </div>
+        <div id="instagram" class="social-box">
+          <p class="align"><img src="./images/icon-instagram.svg" alt="">@realnathanf</p>
+          <div>
+            <p class="fallowers">11K</p>
+            <span class="subtitle">Followers</span>
+          </div>
+          <p class="align up"><img src="./images/icon-up.svg" alt="">1099 Today</p>          
+        </div>
+        <div id="youtube" class="social-box">
+          <p class="align"><img src="./images/icon-youtube.svg" alt="">Nathan F.</p>
+          <div>
+            <p class="fallowers">8239</p>
+            <span class="subtitle">Subscribers</span>
+          </div>
+          <p class="align down"><img src="./images/icon-down.svg" alt="">144 Today</p>         
+        </div>
+      </section>
+
+      <section id="overview">
+        <h2 id="title-2">Overview - Today</h2>
+        <div class="overview">
+          <div class=" facebook overview-box">
+            <div class="overview-stats">
+              <p class="overview-title">Page Views</p>
+              <img src="./images/icon-facebook.svg" alt="">
+            </div>
+
+            <div class="overview-stats">
+              <p class="views">87</p>
+              <div class="up"><img src="./images/icon-up.svg" alt=""> 3%</div>
+            </div>
+          </div>
+  
+          <div class=" facebook overview-box">
+            <div class="overview-stats">
+              <p class="overview-title">Likes</p>
+              <img src="./images/icon-facebook.svg" alt="">
+            </div>
+
+            <div class="overview-stats">
+              <p class="views">52</p>
+              <div class="up"><img src="./images/icon-down.svg" alt=""> 2%</div>
+            </div>
+           
+          </div>
+  
+          <div class=" instagram overview-box">
+            <div class="overview-stats">
+              <p class="overview-title">Likes</p>
+              <img src="./images/icon-instagram.svg" alt="">
+            </div>
+
+            <div class="overview-stats">
+              <p class="views">5462</p>
+              <div class="up"><img src="./images/icon-up.svg" alt=""> 2257%</div>
+            </div>
+          </div>
+  
+          <div class=" instagram overview-box">
+            <div class="overview-stats">
+              <p class="overview-title">Profile Views</p>
+              <img src="./images/icon-instagram.svg" alt="">
+            </div>
+
+            <div class="overview-stats">
+              <p class="views">52k</p>
+              <div class="up"><img src="./images/icon-up.svg" alt=""> 1375%</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="overview">
+          <div class=" twitter overview-box">
+            <div class="overview-stats">
+              <p class="overview-title">Retweets</p>
+              <img src="./images/icon-twitter.svg" alt="">
+            </div>
+
+            <div class="overview-stats">
+              <p class="views">117</p>
+              <div class="up"><img src="./images/icon-up.svg" alt=""> 303%</div>
+            </div>
+          </div>
+  
+          <div class=" twitter overview-box">
+            <div class="overview-stats">
+              <p class="overview-title">Likes</p>
+              <img src="./images/icon-twitter.svg" alt="">
+            </div>
+
+            <div class="overview-stats">
+              <p class="views">507</p>
+              <div class="up"><img src="./images/icon-up.svg" alt=""> 553%</div>
+            </div>
+          </div>
+  
+          <div class=" youtube overview-box">
+            <div class="overview-stats">
+              <p class="overview-title">Likes</p>
+              <img src="./images/icon-youtube.svg" alt="">
+            </div>
+
+            <div class="overview-stats">
+              <p class="views">107</p>
+              <div class="down"><img src="./images/icon-down.svg" alt=""> 19%</div>
+            </div>
+          </div>
+  
+          <div class=" youtube overview-box">
+            <div class="overview-stats">
+              <p class="overview-title">Total Views</p>
+              <img src="./images/icon-youtube.svg" alt="">
+            </div>
+
+            <div class="overview-stats">
+              <p class="views">1407</p>
+              <div class="down"><img src="./images/icon-down.svg" alt=""> 12%</div>
+            </div>
+          </div>
+        </div>
+        
+
+      </section>
+      <footer>
+        <div class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="#">Your Name Here</a>.
+        </div>
+      </footer>
+    </div>
+  </main>
+  
+  <script src="./script.js"></script>
+
+
+</body>
+</html>
